@@ -17,7 +17,7 @@ sudo /opt/splunk/bin/splunk enable boot-start -user root --accept-license
 sudo systemctl enable splunk
 sudo systemctl start splunk
 
-
+```
 
 
 ## The L1 SOC Analyst Scanning Mindset
