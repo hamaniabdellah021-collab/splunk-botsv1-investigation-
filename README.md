@@ -51,4 +51,13 @@ sentbyte=0 / rcvdbyte=0: Zero bytes exchanged. No data leakage, no session estab
 This event captures an unsolicited inbound Telnet probe (Port 23) originating from an IP in Russia targeting a public IP in the United States. The FortiGate firewall correctly identified it as high-risk probe traffic and dropped the connection immediately (action=deny) via its default security policy (policyid=0), resulting in zero data leakage.
 
 
+## How to Write Your L1 Ticket Notes
+When documenting this in an ITSM system (like ServiceNow or Jira), summarize it in 3 clear lines:
 
+Summary: Inbound Telnet (Port 23) probe from Russian IP 188.243.155.61 targeting US public IP 71.39.18.122.
+
+Action Taken: Connection dropped automatically by FortiGate firewall default policy (action=deny, policyid=0). Zero bytes transferred.
+
+Verdict: True Positive — External Reconnaissance / Internet Noise (Successfully Mitigated). No host isolation or further escalation required.
+
+ 
