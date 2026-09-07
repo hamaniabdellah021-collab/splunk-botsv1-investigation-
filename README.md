@@ -46,8 +46,9 @@ policyid=0: Blocked by the default "Implicit Deny" rule (meaning no open port ru
 sentbyte=0 / rcvdbyte=0: Zero bytes exchanged. No data leakage, no session established.
 
 
+## Quick summary
 
-
+This event captures an unsolicited inbound Telnet probe (Port 23) originating from an IP in Russia targeting a public IP in the United States. The FortiGate firewall correctly identified it as high-risk probe traffic and dropped the connection immediately (action=deny) via its default security policy (policyid=0), resulting in zero data leakage.
 
 
 
