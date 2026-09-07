@@ -1,0 +1,4 @@
+8/24/16
+7:27:44.000 PM	
+Aug 24 12:27:44 192.168.250.1 date=2016-08-24 time=12:27:43 devname=gotham-fortigate devid=FGT60D4614044725 logid=0000000013 type=traffic subtype=forward level=notice vd=root srcip=188.243.155.61 srcport=6631 srcintf="wan1" dstip=71.39.18.122 dstport=23 dstintf="wan1" sessionid=4237667 proto=6 action=deny policyid=0 dstcountry="United States" srccountry="Russian Federation" trandisp=noop service="TELNET" duration=0 sentbyte=0 rcvdbyte=0 sentpkt=0 appcat="unscanned" crscore=30 craction=131072 crlevel=high
+host = 192.168.250.1source = udp:514sourcetype = fgt_traffic
